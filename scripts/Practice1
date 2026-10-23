@@ -1,0 +1,15 @@
+#Ask the user for their birth year.
+#Calculate their age in years and store it in a variable "age" (age = current_year - birth_year)
+#Print: "You are [age] years old!"
+
+
+
+
+
+
+birth_year = int(input('What is your birth year?'))
+current_year = 2026
+
+age=current_year - birth_year
+
+print('You are', age , ' years old')
