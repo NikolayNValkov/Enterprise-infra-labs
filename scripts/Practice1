@@ -18,3 +18,11 @@ firstname = input('What is your firstname?')
 lastname = input('What is your lastname?')
 
 print('Hello',(firstname + lastname) , '! Welcome to Python programming.')
+
+#Accept a distance in kilometers as float using type conversion with float()
+#Convert it to miles and store it in a new variable. (Miles=Kilometers×0.621371)
+#Print the distance in miles
+
+kilometers  = float(input('Enter a distance in kilometers'))
+Miles=kilometers*0.621371
+print (Miles)
